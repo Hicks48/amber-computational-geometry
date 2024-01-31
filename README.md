@@ -34,7 +34,7 @@ This submodule provides functions to get information on vectos location and orie
 This submodule provides functions for transforming vectors.
 
 # Namespace: Motion Planning
-The motion planning algorithms find a sequence of movement configurations to move an object from source to target configuration. Currently this library only supports Dubins Path for movement planning but the plan is to add support for other algorithms and other constraints with obstacles supported.
+The motion planning algorithms find a sequence of movement configurations to move an object from source to target configuration. Currently this library only supports Dubins Path for movement planning on a 2D plane but the plan is to add support for other algorithms and other constraints with obstacles supported.
 
 ## Movement Configuration
 Movement Configuration describes the parameters relevant for the objects current movement state. In this library at the moment there are only two:
