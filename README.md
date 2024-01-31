@@ -37,8 +37,22 @@ This submodule provides functions for transforming vectors.
 The motion planning algorithms find a sequence of movement configurations to move an object from source to target configuration. Currently this library only supports Dubins Path for movement planning but the plan is to add support for other algorithms and other constraints with obstacles supported.
 
 ## Movement Configuration
+Movement Configuration describes the parameters relevant for the objects current movement state. In this library at the moment there are only two:
+* Position
+* Heading
+
+In the future more parameters might get added to support more complex scenarios.
+
+The library provides components which can be attached to GameObjects or Actors to get or set current movement configuration.
 
 ## Movement Constraints
+Movement Constraints describes parameters for the objects movement. In this library at the moment there is only one:
+* Turning Radius: which is the min radious of a circle around which the object can turn around.
+
+There is definitely a plan to add support for more such as:
+* acceleration
+* object shape
+* others
 
 ## Trajectories and Journeys
 Trajectories are continuous sequences of movement which can be described by a simple mathematical equation. Currently there are two types of trajectories supported.
