@@ -1,3 +1,6 @@
 [submodule "amber-computational-geometry-unity"]
 	path = amber-computational-geometry-unity
 	url = https://github.com/Hicks48/amber-computational-geometry-unity
+[submodule "amber-computational-geometry-unreal"]
+	path = amber-computational-geometry-unreal
+	url = https://github.com/Hicks48/amber-computational-geometry-unreal
