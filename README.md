@@ -13,7 +13,8 @@ using AmberScience.MotionPlanning;
 
 ...
 
-// Define source and target movement configurations or get these values from the components attached to game objects.
+// Define source and target movement configurations or
+// get these values from the components attached to game objects.
 var source = new MovementConfiguration(sourcePosition, sourceHeading);
 var target = new MovementConfiguration(targetPosition, targetHeading);
 
