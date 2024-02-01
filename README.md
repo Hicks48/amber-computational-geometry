@@ -3,6 +3,33 @@ This is a computational geometry library which is planned to be used with Unity 
 
 This documentation is intended as a supporting document in addition to the comments in the code. This documentation presents high level over view of the librarys functionalities and provides details on the used mathematics.
 
+## Usage
+
+![JourneyPlanner demo](./images/journey-planner-demo.gif)
+
+There are many ways to use the motion planning currently implemented this library and the other geometry utility functions. In the GIF above JourneyPlanner is used for navigation. Here is an example on the code usage in `C#` the `C++` version works similarly:
+```
+using AmberScience.MotionPlanning;
+
+...
+
+// Define source and target movement configurations or get these values from the components attached to game objects.
+var source = new MovementConfiguration(sourcePosition, sourceHeading);
+var target = new MovementConfiguration(targetPosition, targetHeading);
+
+// Define movement constraints.
+var constraints = new MovementConstraints(turningRadious);
+
+// Plan a journey. This needs to be done only when the source or target is changed.
+var journey = JourneyPlanner.Plan(source, target);
+
+...
+
+// Move and object along the journey by getting and applying new movement configuration.
+var nextMovementConfiguration = journey.Advance(speed * Time.deltaTime);
+...
+```
+
 ## Namespace: Base Math
 This namespace contains base mathematics queries and presentations.
 
