@@ -11,7 +11,7 @@ Currently this library is focused on Motion planning but more functionality is g
 *Demo of C# library in Unity*
 
 ![JourneyPlanner demo in Unreal](./images/journey-planner-unreal-demo.gif)
-*Demo of C++ library in Unreal*
+*Demo of C++ library in Unreal Engine*
 
 There are many ways to use the motion planning currently implemented this library and the other geometry utility functions. In the GIF above JourneyPlanner is used for navigation. Here is an example on the code usage in `C#` the `C++` version works similarly:
 ```
