@@ -3,6 +3,8 @@ This is a computational geometry library which is planned to be used with Unity 
 
 This documentation is intended as a supporting document in addition to the comments in the code. This documentation presents high level over view of the librarys functionalities and provides details on the used mathematics.
 
+Currently this library is focused on Motion planning but more functionality is going to be added.
+
 ## Usage
 
 ![JourneyPlanner demo in Unity](./images/journey-planner-unity-demo.gif)
