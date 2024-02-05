@@ -5,7 +5,11 @@ This documentation is intended as a supporting document in addition to the comme
 
 ## Usage
 
-![JourneyPlanner demo](./images/journey-planner-demo.gif)
+![JourneyPlanner demo in Unity](./images/journey-planner-unity-demo.gif)
+*Demo of C# library in Unity*
+
+![JourneyPlanner demo in Unreal](./images/journey-planner-unreal-demo.gif)
+*Demo of C++ library in Unreal*
 
 There are many ways to use the motion planning currently implemented this library and the other geometry utility functions. In the GIF above JourneyPlanner is used for navigation. Here is an example on the code usage in `C#` the `C++` version works similarly:
 ```
